@@ -43,10 +43,10 @@ gem "omniauth-mediawiki"
 
 gem 'pg'
 #gem 'activerecord-postgis-adapter'
-gem 'activerecord-postgis-adapter', '3.0.0.beta2'
+gem 'activerecord-postgis-adapter', '3.1.2'
 
 gem 'acts-as-taggable-on', '~> 3.3.0'
-gem 'paperclip', '~> 4.2.0'
+gem 'paperclip', '~> 4.2.2'
 gem 'acts_as_commentable'
 gem 'will_paginate', '~> 3.0'
 gem 'spawnling', '~>2.1'
@@ -60,7 +60,7 @@ gem 'geoplanet'
 gem 'yql', '0.0.2'
 
 group :development do
-   gem 'web-console', '~> 2.0'
+   gem 'web-console', '~> 2.1', '>= 2.1.3'
    gem 'spring'
    gem 'thin'
    gem 'capistrano', '~> 3.2.1'
